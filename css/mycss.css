@@ -1,0 +1,196 @@
+﻿@charset "UTF-8";
+
+* {
+    /* font-family: 微軟正黑體; */
+    font-family: Roboto;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: bold;
+}
+
+.p-2 {
+    border-radius: 30px;
+    font-size: 20px;
+    background-color: #fff;
+    box-shadow: 10px 10px rgba(0, 0, 0, 0.05);
+    transition-duration: 0.5s;
+}
+
+    .p-2:hover {
+        transform: translate(-15px, -15px);
+    }
+
+html, body {
+    background-color: #F9F8F8;
+    margin: 0;
+    width: 100%;
+}
+
+section {
+    margin: initial;
+}
+
+    section .row {
+        margin: 10px;
+    }
+
+body {
+    height: 100%;
+}
+
+nav.navbar.fixed-top.navbar-expand-md.navbar-top {
+    font-size: 25px;
+    height: 80px;
+    background-color: transparent;
+    transition: 0.5s;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+    nav.navbar.fixed-top.navbar-expand-md.navbar-top a {
+        color: black;
+        transition: 0.5s;
+    }
+
+
+        nav.navbar.fixed-top.navbar-expand-md.navbar-top a:hover {
+            color: #F4C095;
+        }
+
+section#aboutme {
+    margin-top: 65px;
+}
+
+    section#aboutme a.i.fa-brands.fa-square-github {
+        margin-left: 20px;
+        color: inherit;
+    }
+
+    section#aboutme .col-8 {
+        font-size: 25px;
+    }
+
+        section#aboutme .col-8 h1 {
+            text-align: center;
+            font-size: 50px;
+        }
+
+        section#aboutme .col-8 hr {
+            width: 30%;
+            margin-right: auto;
+            margin-left: auto;
+            border-bottom: 5px solid black;
+        }
+
+    section#aboutme .p-2.pic {
+        width: 60%;
+        background-size: cover;
+        box-sizing: border-box;
+        margin-right: 30px;
+    }
+
+section#skills .p-2 ul {
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+section#skills .p-2 li.pl1, section#skills .p-2 li.tf1, section#skills .p-2 li.db1, section#skills .p-2 li.ns1, section#skills .p-2 li.do1 {
+    font-size: 21px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    position: relative;
+    margin-left: 35px;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+    section#skills .p-2 li.pl1:hover, section#skills .p-2 li.tf1:hover, section#skills .p-2 li.db1:hover, section#skills .p-2 li.ns1:hover, section#skills .p-2 li.do1:hover {
+        color: #F4C095;
+        margin-left: 45px;
+    }
+
+section#experience img {
+    border-radius: 25px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+section#experience .row .carousel-item img {
+    margin-top: 60px;
+    border-radius: 25px;
+    /* width: 80%; */
+    height: 100%;
+    /* object-fit: cover; */
+    background-position: center center;
+}
+
+section#experience .carousel-caption p {
+    font-size: 30px;
+    color: #002a36;
+}
+
+
+section#experience .list-inline .list-inline-item {
+    font-size: 15px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+section#attachment2 {
+    /* margin-top: 10px; */
+}
+
+    section#attachment2 img {
+        border-radius: 25px;
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    section#attachment2 .row h5 {
+        font-size: 30px;
+        font-weight: 900;
+    }
+
+    section#attachment2 .row p {
+        font-size: 25px;
+    }
+
+    section#attachment2 .row .carousel-item img {
+        border-radius: 25px;
+        width: 900px;
+        height: 700px;
+        object-fit: cover;
+        background-position: center center;
+    }
+    section#attachment2 .list-inline .list-inline-item {
+        font-size: 15px;
+        position: relative;
+        text-decoration: none;
+    }
+
+    
+section#attachment .card.p {
+    font-size: 10px;
+    cursor: pointer;
+}
+
+section#album .row {
+    height: 100%;
+}
+
+    section#album .row h1 {
+        margin-bottom: 50px;
+    }
+
+    section#album .row .carousel-item img {
+        border-radius: 25px;
+        width: 400px;
+        height: 700px;
+        background-position: center center;
+    }
